@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="FREE CRM Application Test Automation Test Suite"
+	configfailurepolicy="skip">
+	<listeners>
+		<listener class-name="com.crm.qa.Listener.Listeners" />
+	</listeners>
+
+	<test name="Free CRM App Test Cases">
+		<classes>
+			<class name="com.FreeCRM.qa.testcases.LoginPageTestCase" />
+			<class name="com.FreeCRM.qa.testcases.HomePageTestCase" />
+			<class name="com.FreeCRM.qa.testcases.ContactsPageTest" />
+			<class name="com.FreeCRM.qa.testcases.TasksPageTestCase" />
+		</classes>
+	</test>
+</suite>
